@@ -1,0 +1,79 @@
+Получить список стран{
+	Метод запроса: GET
+
+	Пример запроса:
+
+	GET /restapi/country HTTP 1.1
+	Host: my.site.com
+	User-Agent: Internet-Explorer 9.0
+
+}
+
+Получить список отелей в стране{
+	Метод запроса: GET
+
+	Пример запроса:
+
+	GET /restapi/country/<countryname>/hotel HTTP 1.1
+	Host: my.site.com
+	User-Agent: Internet-Explorer 9.0
+
+}
+
+Добавить страну{
+	Метод запроса: POST
+
+	Пример запроса:
+
+	POST /restapi/country
+	Host: my.site.com
+	User-Agent: Internet-Explorer 9.0
+
+	country=newCountry?description=newDescription
+}
+
+Добавить отель в страну{
+	Метод запроса: POST
+
+	Пример запроса:
+
+	POST /restapi/country/<countryname>/hotel
+	Host: my.site.com
+	User-Agent: Internet-Explorer 9.0
+
+	hotel=newHotel?description=newDescription
+}
+
+Удалить определенный отель{
+	Метод запроса: DELETE
+
+	Пример запроса:
+
+	DELETE /restapi/country/<countryname>/hotel/<hotelname>
+	Host: my.site.com
+	User-Agent: Internet-Explorer 9.0
+
+}
+
+Получить информацию об определенном отеле{
+	Метод запроса: GET
+
+	Пример запроса:
+
+	GET /restapi/country/<countryname>/hotel/<hotelname>
+	Host: my.site.com
+	User-Agent: Internet-Explorer 9.0
+
+}
+
+Обновить информацию об определенном отеле{
+	Метод запроса: PUT
+
+	Пример запроса:
+
+	PUT /restapi/country/<countryname>/hotel/<hotelname>
+	Host: my.site.com
+	User-Agent: Internet-Explorer 9.0
+
+	description=newDescription
+}
