@@ -29,7 +29,8 @@
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
-	country=newCountry?description=newDescription
+	country ='newCountry';
+	description ='newDescription';
 }
 
 Добавить отель в страну{
@@ -41,7 +42,8 @@
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
-	hotel=newHotel?description=newDescription
+	hotel = 'newHotel';
+	description = 'newDescription';
 }
 
 Удалить определенный отель{
@@ -75,5 +77,5 @@
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
-	description=newDescription
+	description = 'newDescription';
 }
