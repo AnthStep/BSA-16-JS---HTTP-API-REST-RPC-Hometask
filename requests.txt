@@ -14,7 +14,7 @@
 
 	Пример запроса:
 
-	GET /restapi/country/<countryname>/hotel HTTP 1.1
+	GET /restapi/country/<country_Name>/hotel HTTP 1.1
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
@@ -29,7 +29,7 @@
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
-	country ='newCountry';
+	name ='newCountry';
 	description ='newDescription';
 }
 
@@ -38,11 +38,11 @@
 
 	Пример запроса:
 
-	POST /restapi/country/<countryname>/hotel
+	POST /restapi/country/<country_Name>/hotel
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
-	hotel = 'newHotel';
+	name = 'newHotel';
 	description = 'newDescription';
 }
 
@@ -51,7 +51,7 @@
 
 	Пример запроса:
 
-	DELETE /restapi/country/<countryname>/hotel/<hotelname>
+	DELETE /restapi/country/<country_Name>/hotel/<hotel_ID>
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
@@ -62,7 +62,7 @@
 
 	Пример запроса:
 
-	GET /restapi/country/<countryname>/hotel/<hotelname>
+	GET /restapi/country/<country_Name>/hotel/<hotel_ID>
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
@@ -73,7 +73,7 @@
 
 	Пример запроса:
 
-	PUT /restapi/country/<countryname>/hotel/<hotelname>
+	PUT /restapi/country/<country_Name>/hotel/<hotel_ID>
 	Host: my.site.com
 	User-Agent: Internet-Explorer 9.0
 
